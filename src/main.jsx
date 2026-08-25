@@ -1,0 +1,3 @@
+import React from 'react';import{createRoot}from'react-dom/client';import{CssBaseline,ThemeProvider,createTheme}from'@mui/material';import App from './App';import'./styles.css';
+const theme=createTheme({palette:{mode:'dark',background:{default:'#0b1220',paper:'#111a2b'},primary:{main:'#7dd3fc'},secondary:{main:'#a78bfa'}},typography:{fontFamily:'"Inter","Roboto","Helvetica","Arial",sans-serif',h1:{fontWeight:800},h2:{fontWeight:750},h3:{fontWeight:700},button:{textTransform:'none',fontWeight:700}},shape:{borderRadius:16}});
+createRoot(document.getElementById('root')).render(<React.StrictMode><ThemeProvider theme={theme}><CssBaseline/><App/></ThemeProvider></React.StrictMode>);
