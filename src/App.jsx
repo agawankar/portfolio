@@ -111,21 +111,21 @@ const experiences = [
     company: "ARES Safety Solutions Pvt Ltd (ARES Security Corporation)",
     role: "Senior Software Engineer",
     location: "Remote",
-    period: "Sep 2022 – Present",
+    period: "Sep 2022 – Oct 2026",
     intro:
       "Enterprise security and safety platform supporting operational workflows, digital-twin capabilities and map-based visualization.",
     highlights: [
-      "Engineer real-time web interfaces for robot control and mission management using React.js, Material UI, Redux and Mapbox GL, enabling operators to monitor and control autonomous systems through real-time telemetry.",
-      "Engineer Mapbox-based geospatial visualization handling 80K+ track-history points; designed a 4-stage processing pipeline — viewport filtering, zoom-aware sampling, movement filtering and distance-based reduction — to cut unnecessary rendering workload and keep large-scale maps responsive.",
+      "Engineered real-time web interfaces for robot control and mission management using React.js, Material UI, Redux and Mapbox GL, enabling operators to monitor and control autonomous systems through real-time telemetry.",
+      "Engineered Mapbox-based geospatial visualization handling 80K+ track-history points; designed a 4-stage processing pipeline — viewport filtering, zoom-aware sampling, movement filtering and distance-based reduction — to cut unnecessary rendering workload and keep large-scale maps responsive.",
       "Diagnosed a “Page Unresponsive” crash caused by synchronous heavy computation on the main thread and resolved it by offloading track-history distance calculations to a Web Worker, eliminating browser freezes during large-dataset rendering.",
-      "Solved a data-accuracy issue in multi-segment track-history rendering — where off-screen point filtering created false line connections across real gaps — by introducing a boundary-aware flag into the rendering pipeline.",
-      "Fixed critical reliability bugs in the robot camera-control interface, including video-widget resets and resize/fill issues on camera switch, by resolving component state race conditions and improving resize handling.",
-      "Architect Redux-driven state management for object-detection workflows and mission-critical UI, enabling low-latency updates and improved operational usability.",
-      "Build reusable React components, utilities and common UI patterns used across multiple business modules, improving consistency and maintainability.",
-      "Translate Figma designs into responsive, pixel-accurate React interfaces, working with UI/UX designers through design handoff to keep components consistent with the design system.",
-      "Work with CI/CD pipelines on Azure DevOps and Docker-based builds to deliver frontend releases reliably across development, staging and production environments.",
-      "Apply AI-driven development practices — GitHub Copilot, ChatGPT and Claude for scaffolding, refactoring, debugging and test generation — while maintaining code quality through review and testing.",
-      "Own frontend features end-to-end — from requirement analysis and solution design through development, testing, demonstrations and production support — across authentication, transactions, approvals and role-based operations.",
+      "Solved a data-accuracy issue in multi-segment track-history rendering — where off-screen point filtering created false line connections across real gaps — by introducing a boundary-aware flag into the rendering pipeline, improving visualization reliability for operators.",
+      "Fixed critical reliability bugs in the robot camera-control interface, including video-widget resets and resize/fill issues on camera switch, by resolving component state race conditions and improving resize handling — ensuring stable live camera feeds for mission operators.",
+      "Architected Redux-driven state management for object-detection workflows and mission-critical UI, enabling low-latency updates and improved operational usability.",
+      "Built reusable React components, utilities and common UI patterns used across multiple business modules, improving consistency and maintainability.",
+      "Translated Figma designs into responsive, pixel-accurate React interfaces, working with UI/UX designers through design handoff to keep components consistent with the design system.",
+      "Worked with CI/CD pipelines on Azure DevOps and Docker-based builds to deliver frontend releases reliably across development, staging and production environments.",
+      "Applied AI-driven development practices — using GitHub Copilot, ChatGPT and Claude for component scaffolding, refactoring, debugging and test generation — to speed up delivery while maintaining code quality through review and testing.",
+      "Owned frontend features end-to-end — from requirement analysis and technical solution design through development, testing, demonstrations and production support — across API-driven workflows spanning authentication, transactions, approvals and role-based operations.",
     ],
     stack: [
       "React.js",
@@ -137,7 +137,7 @@ const experiences = [
       "REST APIs",
       "Mapbox GL",
       "Docker",
-      "Azure DevOps",
+      "Azure DevOps (CI/CD)",
       "Figma",
     ],
   },
@@ -148,7 +148,7 @@ const experiences = [
     period: "Sep 2021 – Sep 2022",
     client: "PayPal India",
     intro:
-      "BRIDGE — enterprise employee platform for HR procedures, company news, announcements, events, training, nominations, profiles and team connectivity.",
+      "BRIDGE – enterprise employee platform for HR procedures, company news, announcements, events, training, nominations, profiles and team connectivity.",
     highlights: [
       "Built and enhanced React-based modules for BRIDGE, PayPal India’s enterprise employee platform spanning HR workflows, announcements, training and team connectivity.",
       "Built reusable UI components and shared design patterns, improving consistency, maintainability and delivery speed across modules.",
@@ -182,10 +182,11 @@ const experiences = [
     stack: [
       "Angular",
       "React.js",
-      "JavaScript",
       "Azure",
       "Mock API",
-      "Storybook",
+      "HTML5",
+      "CSS",
+      "JavaScript",
     ],
   },
   {
@@ -194,13 +195,23 @@ const experiences = [
     location: "On-site – Hyderabad",
     period: "Oct 2019 – Feb 2020",
     intro:
-      "Simply5 — web platform for managing internet access for users in public locations such as cafés, colleges and hospitals.",
+      "Simply5 – web platform for managing internet access for users in public locations such as cafés, colleges and hospitals.",
     highlights: [
       "Developed web application modules for Simply5 using React.js and Next.js, integrating frontend features with backend services.",
       "Built reusable UI components and implemented responsive, product-driven interfaces.",
       "Delivered features and resolved defects within sprint timelines alongside the core development team.",
     ],
-    stack: ["React.js", "Next.js", "Node.js", "JavaScript", "Git", "Trello"],
+    stack: [
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "HTML5",
+      "CSS",
+      "JavaScript",
+      "npm",
+      "Git",
+      "Trello",
+    ],
   },
   {
     company: "Adaequare Info Pvt Ltd",
@@ -208,7 +219,7 @@ const experiences = [
     location: "On-site – Hyderabad",
     period: "Jul 2016 – Sep 2019",
     intro:
-      "Listany — e-commerce platform enabling businesses to create and manage online stores.",
+      "Listany – e-commerce platform enabling businesses to create and manage online stores.",
     highlights: [
       "Built custom e-commerce storefronts on the Listany platform for 8 B2B clients and 4 additional B2C/owned projects — 12 implementations in total.",
       "Designed reusable product-listing, product-detail and facet-filter components used across multiple commerce implementations.",
@@ -227,41 +238,32 @@ const experiences = [
     ],
     stack: [
       "JsRender / JsViews",
-      "jQuery",
       "Bootstrap",
+      "jQuery",
       "JavaScript",
       "Gulp",
       "Node.js",
       "CSS3",
+      "npm",
+      "Git",
+      "Bugzilla",
+      "ActiveCollab",
+      "Trello",
     ],
   },
   {
-    company: "Udyog Software (I) Ltd",
+    company: "Global Software / Udyog Software (I) Ltd",
     role: "Programmer Analyst – Application Support",
     location: "Mumbai",
-    period: "Apr 2013 – Jun 2016",
+    period: "Jul 2012 – Jun 2016",
     intro:
       "Business application implementation, customization and customer support.",
     highlights: [
-      "Installed and configured business applications at customer locations.",
-      "Delivered professional training for business modules.",
+      "Installed and configured business applications at customer locations and delivered training for business modules.",
       "Designed and customized reports and modules using Visual FoxPro 9.0.",
       "Managed support tickets, customer change requests and release patch activities.",
     ],
     stack: ["Visual FoxPro 9.0", "Application Support", "Customer Training"],
-  },
-  {
-    company: "Global Software",
-    role: "Programmer Analyst – Application Support",
-    location: "Mumbai",
-    period: "Jul 2012 – Mar 2013",
-    intro: "Channel partner of Udyog Software (I) Ltd.",
-    highlights: [
-      "Supported installation, configuration, training and maintenance of business applications.",
-      "Handled customer tickets, customization requests and release patch installation.",
-      "Provided online and offline customer support.",
-    ],
-    stack: ["Application Support", "Customer Support", "Implementation"],
   },
 ];
 const projects = [
@@ -446,7 +448,7 @@ export default function App() {
                   }}
                 >
                   Senior Software Engineer specializing in React.js, Redux and
-                  real-time, data-heavy web interfaces. Currently building
+                  real-time, data-heavy web interfaces. Most recently built
                   mission-critical robot-control, live-telemetry and Mapbox
                   geospatial applications for autonomous security systems.
                 </Typography>
